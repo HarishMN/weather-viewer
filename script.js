@@ -14,8 +14,8 @@ let weather = {
         const { speed } = data.wind;
         console.log(name,description,temp,speed)
         document.querySelector(".city").innerText = "City:" + name;
-        // document.querySelector(".description").innerText = "Conditions:" + description;
-        // document.querySelector(".temp").innerText = temp + "C";
-        // document.querySelector(".speed").innerText = "Wind-Speed:" + speed;
+        document.querySelector(".description").innerText = "Conditions:" + description;
+        document.querySelector(".temp").innerText = temp + "C";
+        document.querySelector(".speed").innerText = "Wind-Speed:" + speed;
     }
 }
